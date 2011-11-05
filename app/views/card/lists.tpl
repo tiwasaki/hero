@@ -13,7 +13,7 @@
 <input type="button" value="一括売却する" /><br />
 
 <hr>
-<img src="" />
+<img src="{$html->webroot}img/sample01.png" />
 <a href="{$html->webroot}card">○○レッド</a><br />
 赤 ノーマル<br />
 Lv1 攻1000 防 2000<br />

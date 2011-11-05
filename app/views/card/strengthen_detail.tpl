@@ -1,7 +1,7 @@
 <hr>
 強化するカード
 <hr>
-<img src="" />
+<img src="{$html->webroot}img/sample01.png" />
 ○○レッド<br />
 赤 ノーマル<br />
 Lv1 攻1000 防 2000<br />
@@ -17,7 +17,7 @@ Lv1 攻1000 防 2000<br />
 <input type="button" value="並替え" /><br />
 
 <hr>
-<img src="" />
+<img src="{$html->webroot}img/sample01.png" />
 ○○レッド<br />
 赤 ノーマル<br />
 Lv1 攻1000 防 2000<br />
