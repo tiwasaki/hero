@@ -1,0 +1,2 @@
+2011-07-22 16:36:11 Debug: Notice (8): Undefined property: DukeController::$Fb in [APP\controllers\duke_controller.php, line 35]
+2011-07-22 20:55:32 Debug: Notice (8): Undefined property: DukeController::$Fb in [APP\controllers\duke_controller.php, line 15]
