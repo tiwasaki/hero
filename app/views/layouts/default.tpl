@@ -8,6 +8,16 @@
 	</head>
 	<body>
 		{$content_for_layout}
+		<hr>
+		<ul>
+			<li><a href="{$html->webroot}top">Top</a></li>
+			<li><a href="{$html->webroot}my_home">マイホーム</a></li>
+			<li><a href="{$html->webroot}card">カード</a></li>
+			<li><a href="{$html->webroot}gashapon">ガチャ</a></li>
+			<li><a href="">その他</a></li>
+		</ul>
+		<hr>
+		
 		{$cakeDebug}
 	</body>
 </html>

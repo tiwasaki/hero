@@ -18,5 +18,19 @@ class CardController extends AppController {
 	
 	function index() {
 	}
+	
+	/**
+	 * 強化カード詳細
+	 */
+	function strengthen_detail() {
+	
+	}
+	
+	/**
+	 * 強化カード確認
+	 */
+	function strengthen_confirm() {
+	
+	}
 }
 ?>
