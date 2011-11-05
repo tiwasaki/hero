@@ -19,11 +19,12 @@ class MyHomeController extends AppController {
 	}
 	
 	function index() {
-		$url = GREE_PEOPLE_API_URL.'@me/@self';
+		$greeUserId = $this->Session->read('greeUserId');
+		$url = GREE_PEOPLE_API_URL.$greeUserId.'/@self';
 		$responseArray = json_decode($this->Oauth->requestAPI($url),true);
 		$this->set('self', $responseArray['entry']);
 		
-		$url = GREE_PEOPLE_API_URL.'@me/@all';
+		$url = GREE_PEOPLE_API_URL.$greeUserId.'/@all';
 		$responseArray = json_decode($this->Oauth->requestAPI($url),true);
 		$this->set('friends', $responseArray['entry']);
 	}
