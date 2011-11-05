@@ -16,7 +16,17 @@ class CardController extends AppController {
 		parent::afterFilter();
 	}
 	
+	/**
+	 * カード詳細
+	 */
 	function index() {
+	}
+	
+	/**
+	 * カードリスト
+	 */
+	function lists() {
+	
 	}
 	
 	/**
