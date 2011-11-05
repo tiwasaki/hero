@@ -7,37 +7,24 @@
 <a href="">チーム</a>
 
 <hr>
-○○さんの<br />グッジョブ帳
+{$self.nickname}さんの<br />グッジョブ帳
 <hr>
-<img src="" /> 
-11/03 0:00<br />
-<a href="">△△△</a><br />
-グッジョブ
-<hr>
-<img src="" /> 
-11/03 0:00<br />
-<a href="">△△△</a><br />
-グッジョブ
-<hr>
-<img src="" /> 
-11/03 0:00<br />
-<a href="">△△△</a><br />
-グッジョブ
-<hr>
+{foreach from=$friends item=friend}
+	11/03 0:00<br />
+	<img src="{$friend.thumbnailUrl}" /><a href="">{$friend.nickname}</a><br />
+	グッジョブ
+	<hr>
+{/foreach}
 <a href="">もっと見る</a>
 <hr>
 仲間の活躍
 <hr>
-<img src="" /> 
-11/03 0:00<br />
-<a href="">△△△</a><br />
-○○を達成!!
-<hr>
-<img src="" /> 
-11/03 0:00<br />
-<a href="">△△△</a><br />
-○○を達成!!
-<hr>
+{foreach from=$friends item=friend}
+	11/03 0:00<br />
+	<img src="{$friend.thumbnailUrl}" /><a href="">{$friend.nickname}</a><br />
+	○○を達成!!
+	<hr>
+{/foreach}
 <a href="">もっと見る</a>
 <hr>
 もっと仲間を増やそう<br />
