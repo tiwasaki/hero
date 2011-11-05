@@ -17,5 +17,8 @@ Lv1 攻1000 防 2000<br />
 <input type="button" value="並替え" /><br />
 
 <hr>
-<img src="" /><input type="button" value="合わせる" onclick="location.href='{$html->webroot}card/strengthen_confirm'"/><br />
-<hr>
+<img src="" />
+○○レッド<br />
+赤 ノーマル<br />
+Lv1 攻1000 防 2000<br />
+<input type="button" value="合わせる" onclick="location.href='{$html->webroot}card/strengthen_confirm'"/><br />

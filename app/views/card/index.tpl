@@ -20,4 +20,3 @@ Lv1 攻1000 防 2000<br />
 コスト 10<hr>
 <input type="button" value="強化" onclick="location.href='{$html->webroot}card/strengthen_detail'"/><br />
 <input type="button" value="売る" /><br />
-<hr>
