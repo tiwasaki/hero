@@ -11,7 +11,7 @@
 		<hr>
 		<ul>
 			<li><a href="{$html->webroot}top">Top</a></li>
-			<li><a href="{$html->webroot}my_home">マイホーム</a></li>
+			<li><a href="{$html->webroot}hideout">アジト</a></li>
 			<li><a href="{$html->webroot}card/lists">カード</a></li>
 			<li><a href="{$html->webroot}gashapon">ガチャ</a></li>
 			<li><a href="{$html->webroot}other">その他</a></li>

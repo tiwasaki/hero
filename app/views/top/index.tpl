@@ -1,5 +1,5 @@
 だれヒロ<br />
-<a href="{$html->webroot}my_home">マイホームへ</a><br />
+<a href="{$html->webroot}hideout">アジトへ</a><br />
 
 <a href="">公式コミュニティ</a> <a href="">ゲームの遊び方</a><br />
 

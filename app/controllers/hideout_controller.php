@@ -1,10 +1,10 @@
 <?php
 /**
- * マイホーム コントローラクラス
+ * アジト コントローラクラス
  */
-class MyHomeController extends AppController {
+class HideoutController extends AppController {
 	/** コントローラ名 */
-	var $name   = 'my_home';
+	var $name   = 'hideout';
 	/** 使用モデル配列 */
 	var $uses = null;
 	

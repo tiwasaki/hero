@@ -23,7 +23,7 @@ class StoryController extends AppController {
 	
 	}
 	
-	function boss() {
+	function result2() {
 	
 	}
 }
