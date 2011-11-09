@@ -9,4 +9,5 @@ Flashを表示?<br />
 <hr>
 ボスが現れた場合<br />
 ボスの表示をする(Flash?)<br />
-<a href="{$html->webroot}story/result">ボスとたたかう(ボスバトルUnity)</a>
+<a href="{$html->webroot}story/result">ボスとたたかう</a><br />
+<a href="unity://callback/">(ボスバトルUnity)</a>
