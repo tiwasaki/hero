@@ -21,4 +21,4 @@ Lv1 攻1000 防 2000<br />
 ○○レッド<br />
 赤 ノーマル<br />
 Lv1 攻1000 防 2000<br />
-<input type="button" value="合わせる" onclick="location.href='{$html->webroot}card/strengthen_confirm'"/><br />
+<a href="">合わせる</a>(Flash再生)

@@ -16,7 +16,12 @@ class HideoutController extends AppController {
 		parent::afterFilter();
 	}
 	
+	/**
+	 * アジト
+	 */
 	function index() {
+		$this->pageTitle = 'アジト';
+		
 		$greeUserId = $this->Session->read('greeUserId');
 		$url = GREE_PEOPLE_API_URL.$greeUserId.'/@self';
 		$responseArray = json_decode($this->Oauth->requestAPI($url),true);

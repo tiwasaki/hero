@@ -1,8 +1,8 @@
 メニュー<br />
 
 <ul>
-	<li><a href="link">ショップ</a></li>
-	<li><a href="link">強化</a></li>
+	<li><a href="{$html->webroot}shop">ショップ</a></li>
+	<li><a href="{$html->webroot}training">特訓</a></li>
 	<li><a href="link">トレード</a></li>
 	<li><a href="link">バトルデッキ</a></li>
 	<li><a href="link">チーム</a></li>

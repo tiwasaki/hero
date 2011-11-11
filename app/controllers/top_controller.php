@@ -16,7 +16,12 @@ class TopController extends AppController {
 		parent::afterFilter();
 	}
 	
+	/**
+	 * トップ
+	 */
 	function index() {
+		$this->pageTitle = 'トップ';
+		
 		$url = GREE_PEOPLE_API_URL.'@me/@self';
 		$responseArray = json_decode($this->Oauth->requestAPI($url),true);
 		if(!empty($responseArray['entry']['id'])){

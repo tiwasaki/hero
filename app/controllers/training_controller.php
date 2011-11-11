@@ -1,10 +1,10 @@
 <?php
 /**
- * ガチャ コントローラクラス
+ * 特訓 コントローラクラス
  */
-class GashaponController extends AppController {
+class TrainingController extends AppController {
 	/** コントローラ名 */
-	var $name   = 'gashapon';
+	var $name   = 'training';
 	/** 使用モデル配列 */
 	var $uses = null;
 	
@@ -17,17 +17,17 @@ class GashaponController extends AppController {
 	}
 	
 	/**
-	 * ガチャ一覧
+	 * 特訓するカードの選択
 	 */
 	function index() {
-		$this->pageTitle = 'ガチャ一覧';
+		$this->pageTitle = '特訓するカードの選択';
 	}
 	
 	/**
-	 * ガチャ結果
+	 * 特訓確認
 	 */
-	function result() {
-		$this->pageTitle = 'ガチャ結果';
+	function confirm() {
+	
 	}
 }
 ?>

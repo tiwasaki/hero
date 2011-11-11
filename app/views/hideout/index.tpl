@@ -2,9 +2,9 @@
 <hr>
 ニュースを表示?
 <hr>
-<a href="{$html->webroot}map">話を進める</a><br />
-<a href="{$html->webroot}gashapon">ガチャ</a>
-<a href="">チーム</a>
+<a href="{$html->webroot}map">【シナリオへ移動】</a>(Unity起動)<br />
+<a href="{$html->webroot}gashapon">【ガチャ】</a>
+<a href="{$html->webroot}team">【チーム】</a>
 
 <hr>
 {$self.nickname}さんの<br />グッジョブ帳
