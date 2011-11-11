@@ -27,7 +27,14 @@ class TrainingController extends AppController {
 	 * 特訓確認
 	 */
 	function confirm() {
+		$this->pageTitle = '特訓確認';
+	}
 	
+	/**
+	 * 特訓結果
+	 */
+	function complete() {
+		$this->pageTitle = '特訓結果';
 	}
 }
 ?>

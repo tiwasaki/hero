@@ -21,4 +21,4 @@ Lv1 攻1000 防 2000<br />
 ○○レッド<br />
 赤 ノーマル<br />
 Lv1 攻1000 防 2000<br />
-<a href="">合わせる</a>(Flash再生)
+<a href="{$html->webroot}training/complete">合わせる</a>(Flash再生)
