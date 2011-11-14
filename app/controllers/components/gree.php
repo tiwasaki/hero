@@ -41,7 +41,7 @@ class GreeComponent extends OauthComponent {
 	 * @param $url URL
 	 * @return 配列
 	 */
-	function _getrayByUrl($url) {
+	function _getArrayByUrl($url) {
 		$responseArray = json_decode(parent::requestAPI($url),true);
 		return $responseArray['entry'];
 	}
