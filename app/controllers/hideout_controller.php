@@ -21,15 +21,9 @@ class HideoutController extends AppController {
 	 */
 	function index() {
 		$this->pageTitle = 'アジト';
-		
 		$greeUserId = $this->Session->read('greeUserId');
-		$url = GREE_PEOPLE_API_URL.$greeUserId.'/@self';
-		$responseArray = json_decode($this->Oauth->requestAPI($url),true);
-		$this->set('self', $responseArray['entry']);
-		
-		$url = GREE_PEOPLE_API_URL.$greeUserId.'/@all';
-		$responseArray = json_decode($this->Oauth->requestAPI($url),true);
-		$this->set('friends', $responseArray['entry']);
+		$this->set('self', $this->Gree->getUserByGreeUserId($greeUserId));
+		$this->set('friends', $this->Gree->getFriendsByGreeUserId($greeUserId));
 	}
 }
 ?>

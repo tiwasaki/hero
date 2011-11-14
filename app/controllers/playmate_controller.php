@@ -22,6 +22,7 @@ class PlaymateController extends AppController {
 	 */
 	function index($greeUserId) {
 		$this->pageTitle = '仲間詳細';
+		$this->set('self', $this->Gree->getUserByGreeUserId($greeUserId));
 	}
 	
 	/**

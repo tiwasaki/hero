@@ -31,10 +31,17 @@ class TrainingController extends AppController {
 	}
 	
 	/**
-	 * 特訓結果
+	 * 一括特訓
 	 */
-	function complete() {
-		$this->pageTitle = '特訓結果';
+	function batch() {
+		
+	}
+	
+	/**
+	 * 一括特訓確認
+	 */
+	function batch_confirm() {
+	
 	}
 }
 ?>

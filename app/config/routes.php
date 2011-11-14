@@ -36,4 +36,7 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	
+	//仲間設定
+	Router::connect('/playmate/:greeUserId', array('controller' => 'playmate', 'action' => 'index'), array('pass'=>array('greeUserId'),'greeUserId' => '[0-9]+'));
 ?>

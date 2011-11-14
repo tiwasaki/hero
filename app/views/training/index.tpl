@@ -17,4 +17,4 @@
 赤 ノーマル<br />
 Lv1 攻1000 防 2000<br />
 コスト 10<hr>
-<a href="{$html->webroot}training/confirm">【特訓】</a>
+<a href="{$html->webroot}training">【特訓】</a>

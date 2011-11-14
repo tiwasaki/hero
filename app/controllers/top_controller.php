@@ -21,11 +21,9 @@ class TopController extends AppController {
 	 */
 	function index() {
 		$this->pageTitle = 'トップ';
-		
-		$url = GREE_PEOPLE_API_URL.'@me/@self';
-		$responseArray = json_decode($this->Oauth->requestAPI($url),true);
-		if(!empty($responseArray['entry']['id'])){
-			$this->Session->write('greeUserId', $responseArray['entry']['id']);
+		$me = $this->Gree->getMe();
+		if(!empty($me['id'])){
+			$this->Session->write('greeUserId', $me['id']);
 		}
 	}
 }
