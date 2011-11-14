@@ -20,27 +20,29 @@ class CardController extends AppController {
 	 * カード詳細
 	 */
 	function index() {
+		$this->pageTitle = 'カード詳細';
 	}
 	
 	/**
 	 * カードリスト
 	 */
 	function lists() {
+		$this->pageTitle = 'カードリスト';
 	
 	}
 	
 	/**
-	 * 強化カード詳細
+	 * 売却確認
 	 */
-	function strengthen_detail() {
-	
+	function sell() {
+		$this->pageTitle = '売却確認';
 	}
 	
 	/**
-	 * 強化カード確認
+	 * 売却結果
 	 */
-	function strengthen_confirm() {
-	
+	function sell_complete() {
+		$this->pageTitle = '売却結果';
 	}
 }
 ?>
