@@ -4,7 +4,7 @@
  */
 class GreeComponent extends OauthComponent {
 	function initialize(&$controller){
-		parent::initialize();
+		parent::initialize(&$controller);
 	}
 	
 	/**
