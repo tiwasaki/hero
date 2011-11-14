@@ -7,7 +7,7 @@ class AppController extends Controller {
 	var $view = 'Smarty';
 	var $helpers = array('Html', 'Form', 'Javascript');
 	/** 使用コンポーネント **/
-	var $components = array('Oauth');
+	var $components = array('Oauth','Gree');
 	var $logger = false;
 	
 	/**

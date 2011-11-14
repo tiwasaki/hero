@@ -17,10 +17,20 @@ class PlaymateController extends AppController {
 	}
 	
 	/**
+	 * 仲間詳細
+	 * @param GREEユーザID
+	 */
+	function index($greeUserId) {
+		$this->pageTitle = '仲間詳細';
+	}
+	
+	/**
 	 * 仲間一覧
 	 */
-	function index() {
+	function lists() {
 		$this->pageTitle = '仲間一覧';
+		$greeUserId = $this->Session->read('greeUserId');
+		$this->set('friends', $this->Gree->getFriendsByGreeUserId($greeUserId));
 	}
 }
 ?>
